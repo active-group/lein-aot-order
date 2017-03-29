@@ -4,6 +4,8 @@ This leiningen plugin provides commands to work around problems of
 clojure ahead-of-time compilation, by determining a suitable
 compilation order via clojure.tools.namespace.
 
+This requires Leiningen 2.6.1 or higher.
+
 ## Usage
 
 Put `[lein-aot-order "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
