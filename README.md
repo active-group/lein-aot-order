@@ -10,11 +10,16 @@ This requires Leiningen 2.6.1 or higher.
 
 Put `[lein-aot-order "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
 
-The following tasks are provided:
-  lein aot-order     which just prints the determines order,
-  lein aot-jar       which invokes the jar tasks, with a suitable :aot setting.
+Then you can start the following tasks:
+  lein aot-order     which just prints the determines order
 
-    $ lein aot-order
+And if you set the :aot in your project:
+
+  :aot  :order
+
+the setting is automatically replaced by the determined order of your
+namespaces.  That is order will then be used by the `jar` or `uberjar`
+tasks, just as if you specified it manually.
 
 ## License
 
