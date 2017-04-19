@@ -1,4 +1,4 @@
-(defproject lein-aot-order "0.1.0"
+(defproject lein-aot-order "0.1.1-SNAPSHOT"
   :description "This leiningen plugin helps to work around
   problems of clojure ahead-of-time compilation, by determining a
   suitable compilation order via clojure.tools.namespace."
