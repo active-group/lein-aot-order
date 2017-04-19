@@ -12,15 +12,21 @@ Put [![Clojars Project](https://img.shields.io/clojars/v/lein-aot-order.svg)](ht
 
 Then you can start the following tasks:
 
->  ```lein aot-order```     which just prints the determines order
+```
+lein aot-order
+```
 
-And if you set the :aot in your project:
+which just prints the determined order.
 
->  ```:aot  :order```
+Or if you set ```:aot``` in your project to ```:order```:
+
+```
+:aot  :order
+```
 
 it is automatically replaced by the determined order of your
 namespaces.  That order will then be used by the `jar` or `uberjar`
-tasks, just as if you specified it manually.
+tasks, just as if you had specified it manually.
 
 ## License
 
