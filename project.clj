@@ -16,5 +16,9 @@
    ["change" "version" "leiningen.release/bump-version"]
    ["vcs" "commit"]]
 
+  :deploy-repositories
+  {"clojars" {:url "https://clojars.org/repo"
+              :sign-releases false}}
+
   :dependencies [[org.clojure/tools.namespace "0.3.0-alpha3"]]
   :eval-in-leiningen true)
