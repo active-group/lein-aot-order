@@ -12,10 +12,9 @@
    ["change" "version" "leiningen.release/bump-version" "release"]
    ["vcs" "commit"]
    ["vcs" "tag" "--no-sign"]
-   ["deploy"]
+   ["deploy" "clojars"]
    ["change" "version" "leiningen.release/bump-version"]
    ["vcs" "commit"]]
-  :deploy-repositories [["releases" :clojars]]
 
   :dependencies [[org.clojure/tools.namespace "0.3.0-alpha3"]]
   :eval-in-leiningen true)
