@@ -8,7 +8,7 @@ This requires Leiningen 2.6.1 or higher.
 
 ## Usage
 
-Put `[lein-aot-order "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
+Put [![Clojars Project](https://img.shields.io/clojars/v/lein-aot-order.svg)](https://clojars.org/lein-aot-order) into the `:plugins` vector of your project.clj.
 
 Then you can start the following tasks:
   lein aot-order     which just prints the determines order
