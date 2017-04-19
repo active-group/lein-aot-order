@@ -6,5 +6,8 @@
   :url "https://github.com/active-group/lein-aot-order"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+
+  :deploy-repositories [["releases" :clojars]]
+
   :dependencies [[org.clojure/tools.namespace "0.3.0-alpha3"]]
   :eval-in-leiningen true)
